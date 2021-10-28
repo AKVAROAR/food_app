@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="bs/bootstrap.min.css" rel="stylesheet"/>
+  <script src="bs/bootstrap.min.js"></script>
+  <link href="body.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <script>
+    function myfunction(type){
+      if(type == 'phone'){
+       document.getElementById("select").type="number";
+       document.getElementById("select").placeholder="Phone";
+      }
+      if(type == 'email'){
+        
+        document.getElementById("select").type="email";
+        document.getElementById("select").placeholder="Email";
+      }
+        }
+  </script>
+</head>
+<body id="top">
+  <!------Navbar start----->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand"  href="#top"><span class="bi bi-phone-vibrate-fill"></span>&nbsp; Foodie</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#app">Get Our App</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#who are we">Who are we?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!------Navbar end----->
+ 
+  <!------Background start----->
+  <header style="background-image:url('image/banner 4.png') ;height: 400px;width: 100%;background-repeat: no-repeat;background-size:100% 100%;backdrop-filter: blur(10px);"  >
+    <div class="container-fluid text-center">
+      <div ><h1 style="padding-top: 100px;color:white; font-family: fantasy;font-size: 5em;">Foodie</h1></div>
+      <div ><p style="color:white;font-family:fantasy;font-size: 2em;">Discover the best food & drinks</p></div>
+    </div>
+    
+</header>
+ 
+ 
+
+  <!------Background end----->
+
+  
+<!---App start-->
+<form>
+<div  class="mt-3 pb-5">
+  <div class="app text-center">
+    <h2 >Get The Foodie App <span class="bi bi-phone-vibrate-fill"></span></h2>
+    <p>We will send you a link, open it on your phone to download the app</p>
+    <hr class="w-50 mx-auto pb-1">
+  </div>
+  <div id="app" class="container-fluid">
+  <div class="row">
+ <div class="col-lg-6 col-md-6 col-12">
+   <img src="image/phone.png" class="img-fluid" height=250px;/>
+ </div>
+ 
+ <div  class=" midpart float col-lg-6 col-md-6 col-12">
+
+ <br/><br/><br/><br/>
+ <h3>Enter Your Details</h3>
+ <br/>
+ <input  class="form-check-input"  type="radio" id="email" onclick="if(this.checked){myfunction('email')}" name="radiobtn" placeholder="Email"/>
+  <label for="email" style="font-size: 1.2em; font-family: Georgia, 'Times New Roman', Times, serif;">Email</label>
+ &nbsp;&nbsp;&nbsp;
+  <input  class="form-check-input" type="radio" id="phone" onclick="if(this.checked){myfunction('phone')}" name="radiobtn" />
+  <label style="font-size: 1.2em; font-family:Georgia, 'Times New Roman', Times, serif;">Phone no.</label>
+  
+ <br/>
+  <input type=" " id="select" size="45"  />
+ 
+  <button type="submit" class="btn btn-primary">Get Link</button>
+ 
+ <p>Download App From</p>
+ 
+ <br/>
+ <div >
+  <a href="https://www.apple.com/in/app-store/"><img src="image/apple.png" class="img-fluid" height="100%" width="25%"/></a>
+  <a href="https://play.google.com/store/apps"><img src="image/playstore.png" class="img-fluid" height="100%" width="25%"/></a>
+ </div>
+ 
+</div>
+  </div>
+  <!-- <hr class="w-55 mx-auto pb-1"> -->
+</div>
+</div>
+<!---App End-->
+<div id="about" class="container-fluid">
+<!--About us Start-->
+<div  style="height:100px"></div>
+<div  class="container-fluid">
+<div  class="container-fluid">
+  <div class="row">
+    <div class="about col-sm-6">
+      <h2>About Foodie</h2>
+      <h4>
+        Online food ordering is a process of ordering food from a local restaurant or food cooperative through a web page or app. Much like ordering consumer goods online, many of these allow customers to keep accounts with them in order to make frequent ordering convenient. A customer will search for a favorite restaurant, usually filtered via type of cuisine and choose from available items, and choose delivery or pick-up. Payment can be amongst others either by credit card or cash, with the restaurant returning a percentage to the online food company.
+      </h4>
+      <p class="text">
+        The system is also designed for its ultimate flexibility and performance. The customers will be able to access into the company existing website and browse at their menu and select and place their orders on what they desire. Once they have completed their order, the system will either email or fax the customer’s order to the restaurant.
+
+The online ordering system also enables customers to order days beforehand and the system will execute the order at the specified time. The system has been built to handle large amounts of traffic simultaneously to prevent a system overload.
+
+This system is also flexible in a way, whereby customers are able to place online orders quickly, with just a ‘click’ comparing to the tradition where orders were taken through the phone. More time and cost will be saved ordering online as a phone bill is charged according to the time the phone is on the line. The system was used intended to meet the requirements of all of the clients.
+      </p>
+      
+    </div>
+    
+    <div class="about col-sm-6">
+      <br/>
+      <img src="image/verticalfood.jpg"  style="width: 100%;" class="img-fluid" alt="Responsive image">
+    </div> 
+  </div>
+</div>
+</div>
+</div>
+</form>
+<!-- <hr class="w-55 mx-auto pb-1"> -->
+<!--About us End-->
+
+
+<div id="features" class="container-fluid">
+  <br/> <br/> <br/> <br/>
+<!--Features start--->
+
+<div  id="features" class="container-fluid">
+  <h2 style="color:rgb(2, 100, 104);">Features Of Our App</h2>
+<div class="container">
+<div class="row p-0">
+<div class="card col-md-3 mx-1" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="image/notification.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Push Notifications</h5>
+        <p class="card-text"> It’s obvious to have more than one food delivery app on your smartphone. To create visibility, sending push notifications is the best way.</p>
+        <div class="text-center">
+          <a href="#app"><button class="btn2 rounded-pill" 
+           data-bs-toggle="modal" 
+           data-bs-target="#myModal">Get the offer</button></a>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card col-md-4 mx-1" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="image/map.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Real-Time GPS Tracking </h5>
+        <p class="card-text">This is one of the essential features of food delivery apps that enable customers to track the location of their food through real-time GPS. The purpose of GPS is to offer two-way tracking as well as functioning.</p>
+        <div class="text-center">
+          <a href="#app"><button class="btn2 rounded-pill" 
+           data-bs-toggle="modal" 
+           data-bs-target="#myModal">Get the offer</button></a>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card col-md-4 mx-1" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="image/offer.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Discount and Rewards</h5>
+        <p class="card-text">You should routinely offer great discounts to engage customers. According to the reports, around 40% of users use a food ordering app to look for discounts and cashback, while 25% of users use these apps just to earn loyalty points</p>
+        <div class="text-center">
+          <a href="#app"><button class="btn2 rounded-pill" 
+           data-bs-toggle="modal" 
+           data-bs-target="#myModal">Get the offer</button></a>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+<!--Features End--->
+
+<!---Footer Start-->
+<footer>
+<div id="who are we" class="container-fluid">
+  <div class=" row">
+    <div class="col-sm-9">
+  <h2 style="color:white"><span class="bi bi-phone-vibrate-fill"></span><span style="font-family: fantasy;">Foodie |</span><span style="font-size:0.4em;">Foodie is a free app for  helping people to order food online.</span></h2>
+  </div>
+<div id="bottomlink" class="col-sm-3">
+<a href="#app" style="color:white;font-family:inherit;font-size: 1.2em;text-decoration: none;font-weight: bold;">App |</a>&nbsp;
+<a href="#about" style="color:white;font-family:inherit;font-size: 1.2em;text-decoration: none;font-weight: bold;">About Us |</a>&nbsp;
+<a href="#features" style="color:white;font-family:inherit;font-size: 1.2em;text-decoration: none;font-weight: bold;">Features </a>
+</div>
+
+</div>
+
+<hr class="w-55 mx-auto pb-1">
+
+  <div class=" row">
+ <div class="col-sm-9"> <p>
+    <span style="font-size: 2em;color: white;" class="bi-facebook" 
+    data-bs-toggle="tooltip" title="Facebook" data-bs-placement="bottom"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+    <span style="font-size: 2em;color: white;" class="bi-twitter"
+    data-bs-toggle="tooltip" title="Twitter" data-bs-placement="bottom"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+    <span style="font-size: 2em; color: white;" class="bi-instagram"
+    data-bs-toggle="tooltip" title="Instagram" data-bs-placement="bottom"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+  </p>
+</div>
+  <div class="col-sm-3">
+  <p style="color: white;"><span  class="bi-map"></span>&nbsp; Navi-Mumbai, Maharashtra</p>
+  <p style="color: white;"><span  class="bi-telephone"></span>&nbsp;+918108905879</p>
+  <p style="color: white;"><span  class="bi-globe"></span>&nbsp;foodie@gmail.com</p>
+  </div>
+
+<hr class="w-55 mx-auto pb-1">
+</div>
+<div style="color: white;" class="col-sm-12 text-center">
+<small>&copy; Copyright 2018, Example Corporation</small>
+</div>
+ <div class="container text-center">
+  <a href="#top">
+    <span class="bi-chevron-double-up"></span>
+  </a>
+</div>
+
+</footer>
+<!---Footer End-->
+</body>
+</html>

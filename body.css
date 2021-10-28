@@ -1,0 +1,94 @@
+body{
+    /* background-color: rgb(255, 181, 255); */
+}
+
+.bi {
+    color:red;
+    font-size: 1em;
+}
+.navbar{
+    background-color: cyan;
+    color:black;
+}
+
+.navbar li a,.navbar-brand{
+    color:black;
+    font-family: fantasy;
+    font-size: 1.2em;
+}
+
+.heading{
+    position:absolute;
+    color:white;
+    top:40%;
+    width:100%;
+    max-width:100%
+}
+.heading h1{
+    font-size: 5em;
+    font-family: fantasy;
+}
+.app h2{
+    color:rgb(2, 100, 104);
+
+}
+
+.btn{
+    background-color:rgb(253, 138, 157);
+    color: white;
+}
+.heading h5{
+    font-weight: 300;
+    font-size:3em;
+}
+
+.midpart h3{
+    font-size: 3em;
+    font-family: fantasy;
+    color:rgb(0, 204, 211);
+}
+.about h2{
+    color:rgb(6, 163, 163);
+}
+
+.card{
+    border: none;
+    padding: 10px;
+    transition: all 1s;
+    
+}
+
+.card:hover{
+    box-shadow: 2px 2px 5px black;
+    transform: translateY(10px);
+}
+
+.btn2{
+    background-color: green;
+    color:white;
+}
+
+
+footer{
+    background-color:gray;
+}
+
+.card-body{
+    background-color: cyan;
+}
+
+.bi-chevron-double-up{
+ font-size: 2em;
+ color:white;
+ 
+}
+
+.bi-chevron-double-up:hover{
+    color:red;
+}
+
+.bottomlink:hover{
+    color:red;
+}
+
+
